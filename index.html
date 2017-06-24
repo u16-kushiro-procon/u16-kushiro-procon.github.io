@@ -1,0 +1,19 @@
+---
+layout: splash
+author_profile: false
+header:
+  overlay_color: "#bd252c"
+  overlay_filter: "0"
+  overlay_image: /assets/images/procon.jpg
+  cta_label: "参加申し込み"
+  cta_url: "https://goo.gl/forms/5Ht2Epzi05YLbGfj1"
+excerpt: "パソコンに興味のある学生の皆さん、”プロコン” を通して自分の才能を発掘してみませんか?"
+---
+
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+
+{% for post in paginator.posts %}
+  {% include archive-single.html %}
+{% endfor %}
+
+{% include paginator.html %}
