@@ -12,7 +12,7 @@ title_separator          : "-"
 name                     : "U-16 プログラミングコンテスト釧路大会実行委員会"
 description              : "パソコンやプログラミング操作を通してモノづくりの楽しさに触れられるコンテスト"
 url                      : "http://procon.kushi.ro"
-baseurl                  : "/"
+baseurl                  : # "/"
 repository               : "u16-kushiro-procon/u16-kushiro-procon.github.io"
 teaser                   : "/assets/images/procon.png"
 # breadcrumbs            : false # true, false (default)
@@ -171,7 +171,7 @@ sass:
 
 
 # Outputting
-permalink: /:categories/:title/
+permalink: /posts/:year/:month/:day/:slug/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: Asia/Tokyo
