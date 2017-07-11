@@ -178,7 +178,7 @@ timezone: Asia/Tokyo
 
 
 # Plugins
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
