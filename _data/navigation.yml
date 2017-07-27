@@ -1,6 +1,8 @@
 # main links
 main:
-  - title: "2016年大会のレポート"
+  - title: "プロコンとは"
+    url: /about/
+  - title: "2016年大会"
     url: https://www.ajitep.org/2016/10/14/news-u16-kushiro-20161014/
   - title: "参加申し込み"
     url: https://goo.gl/forms/5Ht2Epzi05YLbGfj1
